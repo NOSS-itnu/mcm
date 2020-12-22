@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Matrix Chain Multiplication Solver</title>
+		<script type="text/javascript" src="js/arithmetic.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+	</head>
+	<body>
+	<center><h1 class="display-2">Matrix Chain Multiplication Solver</h1></center>
+		<div class="panel-bg container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-1 table-area">
+					<div id='table'><h4>Visualisation</h4></br></div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<label>Enter Values: </label>
+						<input type="text" class="form-control"id="matrix" placeholder="e.g. 3,4,6,2" maxlength="15">
+					</div>
+					<button type="button" class="btn btn-success" id="sure" onclick="sure()">Solve</button>
+					<div class="btn-group" role="group">
+						<button type="button" class="btn btn-primary" onclick="star()" disabled="disabled" id="star">Start</button>
+						<button type="button" class="btn btn-primary" disabled="disabled" id="stop" onclick="stop()">Stop</button>
+						<button type="button" class="btn btn-primary" disabled="disabled" id="next" onclick="next()">Next</button>
+					</div>
+					<div class="well info" id="info">
+						<ol>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
